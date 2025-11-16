@@ -1,3 +1,30 @@
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  padding: 0.5rem 1rem;
+  display: block;
+  text-decoration: none;
+}
+
+
+
+h1 {
+  color: #2a4b8d;
+}
+
+main img {
+  width: 150px;
+  height: auto;
+  border: 1px solid #333;
+  padding: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
 main {
     max-width: 840px;
 }
