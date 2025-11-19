@@ -1,11 +1,11 @@
 nav {
-  background-color: #2a4b8d;
+  background-color: #496294;
   padding: 1rem;
 }
 
 nav a {
   color: white;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem ;
   display: block;
   text-decoration: none;
 }
@@ -13,7 +13,7 @@ nav a {
 
 
 h1 {
-  color: #2a4b8d;
+  color: #496294;
 }
 
 main img {
