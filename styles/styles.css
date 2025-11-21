@@ -37,22 +37,17 @@ h1 {
 main img {
   width: 150px;
   height: auto;
-  border: 1px solid #333;
-  padding: 4px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  float: right
-}
-
-
-main {
-    max-width: 840px;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+  float: right;
+  margin: 0 0 1rem 1rem; 
 }
 
 aside {
   width: 20em;
   text-align: center;
 }
-
 
 aside img {
   width: 200px;
@@ -69,8 +64,14 @@ p {
   padding: 0;
 }
 
+aside h2 {
+  position: relative;
+  top: 47px;
+  left: 150px;
+}
+
 footer {
-  margin-top: 15px;
+  margin-top: 1em;
   border-top: 1px solid #000;
   text-align: center;
 }
@@ -82,4 +83,8 @@ footer {
   padding: 1rem;
   background-color: #ddd;
   color: #000;
+}
+
+.indent{
+  padding-left: 1rem;
 }
