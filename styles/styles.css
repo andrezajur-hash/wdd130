@@ -38,7 +38,8 @@ h1 {
 }
 
 main {
-  max-width:640
+  max-width: 840px;
+    
 }
 
 main img {
@@ -54,7 +55,9 @@ main img {
 aside {
   width: 20em;
   text-align: center;
+  position: relative; 
 }
+
 
 aside img {
   width: 200px;
@@ -71,11 +74,16 @@ p {
   margin: 1rem;
 }
 
+
 aside h2 {
-  position: relative;
+  position: absolute;
   top: 47px;
-  left: 250px;
+  left: 80px;
+  color: var(--text-color);
+   
+  
 }
+
 
 footer {
   margin-top: 1em;
