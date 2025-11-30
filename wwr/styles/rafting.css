@@ -133,13 +133,14 @@ nav,p,section  {
 
 
 
+
 .hero article img {
-  width: 100%;
+  float: right;
+  width: 250px;        
   height: auto;
   border-radius: 6px;
-  margin: 0; 
+  margin: 0 0 1rem 1rem; 
 }
-
 
 
 
@@ -258,9 +259,5 @@ footer p {
 }
 
 
-.hero article img {
-    float: right !important;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
-}
+
 
