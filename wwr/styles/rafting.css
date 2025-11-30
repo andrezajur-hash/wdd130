@@ -114,10 +114,14 @@ nav,p,section  {
 }
 
 .hero article img {
-  width: 100%;          
+  .hero article img {
+  width: 100%;
   height: auto;
   border-radius: 6px;
   margin: 0;
+  float: right;  
+}
+
 }
 .hero p {
   text-align: center;
