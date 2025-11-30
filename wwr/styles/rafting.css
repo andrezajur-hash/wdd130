@@ -258,3 +258,9 @@ footer p {
 }
 
 
+.hero article img {
+    float: right !important;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
