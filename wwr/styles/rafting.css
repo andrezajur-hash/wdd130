@@ -114,7 +114,7 @@ nav,p,section  {
 }
 
 .hero article img {
-  .hero article img {
+  .hero article img 
   width: 100%;
   height: auto;
   border-radius: 6px;
@@ -122,7 +122,6 @@ nav,p,section  {
   float: right;  
 }
 
-}
 .hero p {
   text-align: center;
   padding: 0;
