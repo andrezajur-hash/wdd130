@@ -12,14 +12,18 @@
   --secondary-color: #f4a261;
   --accent1-color: #264653;
   --accent2-color: #e9c46a;
-   --body-font: Arial, Helvetica, sans-serif;
-
+  --body-font: Arial, Helvetica, sans-serif;
+  --heading-font: "Times New Roman", Georgia, serif; 
 }
+
+
 
 body {
   font-family: var(--body-font);
   color: var(--accent1-color);
+  line-height: 1.5;
 }
+
 
 h1,
 h2 {
@@ -70,10 +74,7 @@ nav a:hover,nav a.active {
   border-bottom: 2px solid var(--primary-color);
 }
 
-nav,p,section  {
-  margin: 1px;
-  padding: 1px;
-}
+
 
 .hero {
   position: relative;
@@ -222,7 +223,7 @@ footer p {
     margin-top: 10px;
 }
 
-.history,.adventure {
+.history, .adventure, .employees {
   background-color: var(--primary-light);
   padding: 2rem 1rem;
   border-radius: 8px;
@@ -235,3 +236,167 @@ footer p {
 
 
 
+/*contact.html*/
+
+
+
+.contact-hero {
+  text-align: center;
+  background-color: var(--primary-light);
+  border-radius: 8px;
+  padding: 2rem 1rem;
+  margin: 2rem 0 2rem;
+}
+
+
+.contact-hero h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-hero p {
+  line-height: 1.5;
+}
+
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  grid-gap: 2rem;
+  align-items: flex-start;
+  background-color: var(--primary-light);
+  border-radius: 8px;
+  padding: 2rem 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+
+
+.map {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 0.75rem;
+}
+
+.map iframe {
+  width: 100%;
+  min-height: 320px;
+  border: 0;
+  border-radius: 4px;
+}
+
+.contact-form {
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 1rem 1.25rem;
+}
+
+
+
+.contact-form h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+}
+
+.contact-form form {
+  display: block; 
+}
+
+.form-item {
+  margin-bottom: 0.75rem;
+}
+
+.form-item label,
+.contact-form legend {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form fieldset.form-item {
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  padding: 0.75rem 1rem;
+}
+
+.contact-form fieldset label {
+  font-weight: 400;
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.checkbox-item label {
+  font-weight: 400;
+}
+
+
+.primary-btn {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: var(--secondary-color); 
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.75rem;
+}
+
+.primary-btn:hover {
+  background-color: #e08c3d; 
+}
+
+
+
+.employees {
+  text-align: center;
+}
+
+
+.employees h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1.5rem;
+}
+
+.employee-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  justify-items: center;
+}
+
+.employee-grid figure {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 1rem;
+  width: 170px;
+}
+
+.employee-grid img {
+  width: 100%;
+  height: 140px;     
+  object-fit: cover;  
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+
+.employee-grid figcaption {
+  font-size: 0.9rem;
+}
